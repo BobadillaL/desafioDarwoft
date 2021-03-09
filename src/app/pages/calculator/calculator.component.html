@@ -1,0 +1,52 @@
+<body>
+    <form id="formulario">
+        <div id="content">
+            <div class="row">
+                <div class="col">
+                    <label>Operador 1</label>
+                    <input [(ngModel)]="operator1" [ngModelOptions]="{standalone: true}" disabled>
+                </div>
+                
+                <div class="col">
+                    <label>Operador 2</label>
+                    <input [(ngModel)]="operator2" [ngModelOptions]="{standalone: true}" disabled>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <button href="#" class="buttonOP">+</button>
+                    <button href="#" class="buttonOP">-</button>
+                    <button href="#" class="buttonOP">*</button>
+                    <button href="#" class="buttonOP">/</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <button (click)="num(1)" class="btn btn-primary">1</button>
+                    <button (click)="num(2)" class="btn btn-primary">2</button>
+                    <button (click)="num(3)" class="btn btn-primary">3</button>
+                </div>
+                <div class="col">
+                    <button (click)="num(4)" class="btn btn-primary">4</button>
+                    <button (click)="num(5)" class="btn btn-primary">5</button>
+                    <button (click)="num(6)" class="btn btn-primary">6</button>
+                    <button (click)="num(0)" class="btn btn-primary">0</button>
+                </div>
+                <div class="col">
+                    <button (click)="num(7)" class="btn btn-primary">7</button>
+                    <button (click)="num(8)" class="btn btn-primary">8</button>
+                    <button (click)="num(9)" class="btn btn-primary">9</button>
+                </div>
+                <hr>
+                <div class="col">
+                    <label>Resultado</label>
+                    <input disabled>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</body>

@@ -1,0 +1,19 @@
+<h1>Desafio Darwoft</h1>
+<div class="container">
+    <div class="row">
+        <img src="assets/images/darwoft.png" class="appImage">
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label><strong>Ingrese Código</strong></label>
+                <input name="password" class="form-control" type="password" placeholder="Ingrese un codigo"
+                    [(ngModel)]="password">
+            </div>
+            
+        </div>      
+    </div>
+    <div class="row">
+        <button class="btn btn-primary" (click)="validate()">Ingresar</button>
+    </div>
+</div>

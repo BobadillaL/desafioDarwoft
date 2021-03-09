@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "desafioDarwoft"
+  "defaultProject": "desafioDarwoft",
+  "cli": {
+    "analytics": "51ee28b8-4c43-4f9d-a6c0-66dddd78fc63"
+  }
 }
