@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //Valido que se ingreso correctamente el codigo secreto
   validate(){
     var result = this.authService.login(this.password);
     if(result){

@@ -1,27 +1,65 @@
 
-  body{
-      padding: 0px;
-      margin: 0px;
-      border:none;
-      width: 100%;
-  }
-   
-  #formulario{
-      margin: 0 auto;
-      text-align: center;
-      border-radius: 10px;
-      border: 1px solid #666666;
-      width: 500px;
-  }
+.base {
+    background: darkslategray;
+    margin-top: 5px;
+    border: 3px solid black;
+    width: 400px;
+    height: 800px;
+}
 
-  .buttonOP {
-    width: 50px;
-    height: 50px;
-    background-color: aquamarine;
-  }
+.maindisplay {
+    background: lightgrey;
+    height: 25vh;
+    padding: 5% !important;
+    font-size: 4rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+}
 
-  button {
-    width: 60px;
-    height: 60px;
-    border-radius: 90px;
-  }
+.subdisplay {
+    border-bottom: 1px solid black;
+    height: 25%;
+    font-size: 2rem;
+    overflow: auto;
+}
+
+.keypad {
+    height: calc(200% / 3);
+}
+
+.keys {
+    margin: 0;
+    height: 20%;
+    background: whitesmoke;
+    color: skyblue;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.keys:hover {
+    opacity: 1;
+}
+
+.ackey {
+    color: red;
+    background: skyblue;
+}
+
+.equalkey {
+    color: white;
+    background-color: orangered; 
+}
+
+.numkey {
+    color: black;
+    background-color: skyblue; 
+}
+
+.opkey {
+    color: white;
+    background-color: skyblue; 
+}
