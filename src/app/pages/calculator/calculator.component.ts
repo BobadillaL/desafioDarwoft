@@ -36,9 +36,6 @@ export class CalculatorComponent implements OnInit {
       if (lastKey === '/' || lastKey === 'x' || lastKey === '-' || lastKey === '+') {
         this.operatorSet = true;
       }
-      if ((this.operatorSet) || (this.mainText === '')) {
-        return;
-      }
       this.operand1 = parseFloat(this.mainText);
       this.operator = key;
       this.operatorSet = true;
