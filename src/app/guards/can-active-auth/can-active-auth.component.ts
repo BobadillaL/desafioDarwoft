@@ -17,7 +17,7 @@ export class CanActiveAuthComponent implements CanActivate {
 
   canActivate() {
     if(!this.authService.isLogged()){
-      alert('Debes ingresar codigo correcto!!!');
+      alert('Debes ingresar un codigo correcto!!!');
       this.router.navigateByUrl('/home');
       return false;
     }
